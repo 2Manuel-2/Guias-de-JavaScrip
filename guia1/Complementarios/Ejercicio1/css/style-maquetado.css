@@ -1,0 +1,45 @@
+header{
+    width: auto;
+    height: 4vw;
+    margin: 20px;
+    background-color: burlywood;
+    border: 10px solid #f0734c;
+    text-align: center;
+    padding-top: 3vw;
+    font-size: 25px;
+}
+
+navigation{
+    position: absolute;
+    width: 37%;
+    height: 24%;
+    background-color: burlywood;
+    border: 10px solid #f0734c;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 15%;
+    font-size: 25px;
+}
+
+article{
+    background-color: burlywood;
+    border: 10px solid #f0734c;
+    margin-left: 40.8%;
+    width: 57%;
+    height: 3.9vw;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+footer{
+    width: auto;
+    background-color: burlywood;
+    border: 10px solid #f0734c;
+    text-align: center;
+    padding-top: 2%;
+    height: 3vw;
+    font-size: 25px;
+    margin: 20px;
+}
