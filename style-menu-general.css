@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(189, 189, 146);
+}
+
+
+nav{
+    margin: auto;
+    width: auto;
+}
+
+ol{
+    text-align: center;
+}
+
+li{
+    padding: 1rem;
+    
+}
+
+ol li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+ol li a:hover{
+    
+    color: rgb(17, 0, 255);
+    background-color: rgb(196, 196, 156);
+    padding: 1rem;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+
+
+
+.volver{
+    
+    background-color: blue;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1rem;
+}

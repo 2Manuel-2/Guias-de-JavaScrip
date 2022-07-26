@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-calcu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.borde-externo{
+    background-color: gray;
+    padding: 0.5rem;
+}
+
+.cuerpo-calcu{
+    background-color: rgb(164, 160, 160);
+    display: grid;
+    grid-template-columns: repeat(6, 75px);
+    grid-template-rows: 75px repeat(6,75px);
+    border: 5px solid rgb(224, 220, 220);
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    margin: 4px;
+    border-radius: 5%;
+    padding: 0;
+    font-size: large;
+}
+
+.extras, .borra{
+    color: red;
+}
+
+button:active{
+    background-color: rgb(146, 131, 131);
+}
+
+.txt{
+    grid-column: 1 / -1;
+    padding: 16px;
+    background-color: rgb(77, 77, 225);
+    text-align: center;
+}
+
+.pantalla{
+    grid-column: 1 / -1;
+    margin: 0.5em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: rgb(204, 186, 186);
+    
+}
+
+
+
+.col-3{
+    grid-column: span 3;
+}
+
+/*
+.cuerpo-calcu{
+    background-color: rgb(202, 197, 197);
+    border: 5px solid rgb(224, 220, 220);
+    margin: auto;
+    margin-top: ;
+    position: relative;
+    width: 95%;
+    height: 95%;
+}
+
+
+
+.text-calcu{
+    background-color: rgb(84, 84, 236);
+    margin: 5%;
+    width: 90%;
+    position: absolute;
+}
+
+.text-calcu h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.pantalla{
+    position: relative;
+    background-color: white;
+    grid-column: 1/-1;
+   
+   
+}
+
+.botones{
+    background-color: aqua;
+    position: absolute;
+    margin: 5% 5% 5% 5%;
+    width: 90%;
+}*/

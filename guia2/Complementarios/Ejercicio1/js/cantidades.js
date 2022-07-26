@@ -8,8 +8,8 @@ if (num <0)
 cons = num.split('');
 par=0;
 impar=0;
-k=0;
-j=0;
+k=0;//pares
+j=0;//impar
 conti=0;
 contp=0;
 total=0;
